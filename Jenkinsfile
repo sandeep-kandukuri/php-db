@@ -1,9 +1,9 @@
 pipeline {
     agent none
     environment {
-        BUILD_SERVER = 'ec2-user@10.0.0.75'
+        BUILD_SERVER = 'ec2-user@10.0.0.71'
         IMAGE_NAME = 'sandeep888/repo1:php$BUILD_NUMBER'
-        DOCKER_SERVER = 'ec2-user@10.0.0.223'
+        DOCKER_SERVER = 'ec2-user@10.0.0.120'
     }
     stages {
         
